@@ -1,11 +1,11 @@
 const Cal = require("./calculator")
 
 test("test case1", ()=>{
-    expect(Cal.Sum(1,2)).toBe(3);
+    expect(Cal.Sum(2,2)).toBe(4);
 })
 
 test("test case2", ()=>{
-    expect(Cal.Subtract(1,2)).toBe(9);
+    expect(Cal.Subtract(2,2)).toBe(0);
 })
 
 test("test case 3a", ()=>{
@@ -13,7 +13,7 @@ test("test case 3a", ()=>{
 })
 
 test("test case 3b", ()=>{
-    expect(Cal.Divide(8,1)).toBe("8");
+    expect(Cal.Divide(8,1)).toBe(8);
 })
 
 test("test case4", ()=>{
